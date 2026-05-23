@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9508257d-2f16-469f-8a87-fbebb1bb664e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{86747782-9de6-4c71-ade8-45bf947846a8}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1770086a-5e46-4326-b5c7-af3d9250b6cc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\minifwnd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\EEKeeper.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Main.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\help.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_orgh.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_orghv.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_orgv.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_pane.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_panh.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_panhv.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_pann.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_panne.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_pannw.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_pans.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_panse.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_pansw.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_panv.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\im_panw.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\move4way.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nodrop.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sarrows.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\splith.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\splitv.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\trck4way.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\trcknesw.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\trckns.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\trcknwse.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\trckwe.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EEKeeper.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\EEKeeper.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

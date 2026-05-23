@@ -1,0 +1,24 @@
+//
+// EEKEEPER.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+#define WINVER 0x0500
+#define _AFX_INTL_RESOURCES
+
+#ifdef APSTUDIO_INVOKED
+	//#if !defined _AFXDLL
+	#include "afxres.h"
+	#include "afxribbon.h"
+	//#endif
+#else
+	#include "afxres.h"
+	#include "afxribbon.rc"
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
